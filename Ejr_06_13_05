@@ -1,0 +1,3 @@
+#Programa para calcular el valor por concepto de servicio de AGUA de cada usuario
+#Mostrando el nombre del usuario, el valor de la tarifa básica, el valor del consumo
+#Se liquida servisio de AGUA a llos usuarios con estados V (vigente)
