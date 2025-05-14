@@ -1,0 +1,17 @@
+#Programa para calcular evaluación cualitativa
+#Entradas
+nombre=input("Nombre estudiante; ")
+eva_cuantitativa=int(input("Evaluación Cuantitativa: "))
+#Proceso
+if eva_cuantitativa<=59:
+    eva_cualitativa="D"
+elif eva_cuantitativa<=79:
+    eva_cualitativa="C"
+elif eva_cuantitativa<=89:
+    eva_cualitativa="B"
+else:
+    eva_cualitativa="A"
+
+print("Nombre estudiante: ",nombre)
+print("Evaluacion Cuantitativa: ",eva_cuantitativa)
+print("Evaluación Cualitativa: ",eva_cualitativa)

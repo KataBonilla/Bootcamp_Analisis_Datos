@@ -1,0 +1,13 @@
+#Programa para calcular el área de un triángulo
+#Autor: Katalina Niño
+#Fecha: 13-05-25
+
+#Entrada
+base=float(input("Ingrese base: "))
+altura=float(input("Ingrese altura: "))
+
+#Proceso
+area=(base*altura)/2
+
+#Salida
+print("El área es: ", area)

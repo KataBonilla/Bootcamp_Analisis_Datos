@@ -1,0 +1,13 @@
+#Programa para calcular subsidio de transporte
+#Entradas
+nombre=input("Nombre del empleado: ")
+salario=float(input("Salario: "))
+
+if salario<=1000000:
+    subsidio=120000
+else:
+    subsidio=0
+
+print("Nombre del empleado: ",nombre)
+print("salario: ",'{:,.2f}'.format(salario))
+print("subsidio de transporte: ",'{:,.2f}'.format(subsidio))

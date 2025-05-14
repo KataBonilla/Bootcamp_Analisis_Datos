@@ -1,0 +1,18 @@
+#Programa para calcular nota definitiva de un tripulante
+#Autor: Katalina Niño
+#Fecha: 21/04/2025
+
+#Entrada
+n1=float(input("Nota reto 1: "))
+n2=float(input("Nota reto 2: "))
+n3=float(input("Nota reto 3: "))
+n4=float(input("Nota reto 4: "))
+n5=float(input("Nota reto 5: "))
+ni=float(input("Nota inglés: "))
+
+#Proceso
+nd=n1*0.1+n2*0.1+n3*0.2+n4*0.2+n5*0.2+ni*0.2
+
+#Salida
+print("Nota definitiva: ",'{:,.2f}'.format(nd))
+print("Nota definitiva: ",nd)

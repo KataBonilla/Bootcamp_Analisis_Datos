@@ -1,0 +1,22 @@
+#Programa para calcular la tarifa básica del servicio de energía para un usuario 
+#de acuerdo con su estrato
+
+#Entradas
+nombre=input("Nombre Usuario: ")
+estrato=int(input("Estrato (1,2,3,4,o 5)"))
+
+if estrato==1:
+    tarifa_basica=10000
+elif estrato==2:
+    tarifa_basica=15000
+elif estrato==3:
+    tarifa_basica=30000
+elif estrato==4:
+    tarifa_basica=50000
+else:
+    tarifa_basica=65000
+
+print("Nombre Usuario; ",nombre)
+print("Estrato: ",estrato)
+print("Tarifa básica: ",tarifa_basica)
+print("Tarifa básica: ",'{:,.2f}'.format(tarifa_basica))
