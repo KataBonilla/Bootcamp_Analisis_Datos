@@ -1,0 +1,18 @@
+#Programa para hallar pares e impares
+
+#Entradas
+can_pares=0
+can_impares=0
+num=int(input("Ingrese un numero entero: "))
+
+#Proceso
+while num!=-1:
+    if num%2==0:
+        print(num," es PAR ")
+        can_pares+=1
+    else:
+            print(num," es IMPAR")
+            can_impares+=1
+    num=int(input("Número entero: "))
+print("Cantidad de pares: ",can_pares)
+print("Cantidad de impares: ",can_impares)

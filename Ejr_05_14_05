@@ -1,0 +1,6 @@
+#Programa para hallar la raíz cuadrada de un número
+
+import math
+x=int(input("Valor: "))
+print("Raiz cuadrada de ",x," es: ",math.sqrt(x))
+print("El seno de ",x," es: ",math.sin(x))
